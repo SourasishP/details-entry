@@ -1,0 +1,106 @@
+.head
+{
+	background-color:#556B2F;
+	display:flex;
+	padding:0;
+}
+.head .head_show
+{
+	margin:0 auto 0 auto;
+}
+.show
+{
+	display:flex;
+	height:auto;
+	padding:2px 10px;
+	background-color:#A9CCE3;
+}
+.show_content_left_content
+{
+	margin-left:5px;
+	font-size:1em;
+	color:brown;
+	border-right:2px solid black;
+}
+.show_fl_upl
+{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgb(191,191,191,0.8);
+	z-index:2;
+	overflow:hidden;
+	top:1;bottom:1;left:1;right:1;
+	display:none;
+}
+.show_fl_upl .show_fl_upl_content
+{
+	height:auto;
+	width:44%;
+	background-color:#98FB98;
+	position:fixed;
+	margin-top:30px;
+	padding:5px;
+	border:2px solid #4F7942;
+	text-align:center;
+	left:30%;
+	padding-bottom:22px;
+}
+.show_fl_upl .show_fl_upl_content .show_fl_upl_head
+{
+	font-size:2.2em;
+	font-weight:bold;
+	margin-right:5px;
+}
+.cls_show_fl_upl
+{
+	float:right;
+	color:red;
+	cursor:pointer;
+}
+.show_fl_content
+{
+	font-size:1.6em;
+	color:#AA336A;
+	display:none;
+}
+.show_fld_container
+{
+	margin-top:5px;
+	padding:10px;
+}
+.show_fld_num
+{
+	font-size:1.2em;
+	color:red;
+}
+.show_fld
+{
+	width:100%;
+	border:2px solid black;
+	text-align:center;
+	border-collapse: collapse;
+}
+.show_fld_head
+{
+	text-align:center;
+	font-weight:bold;
+	text-decoration:underline;
+	font-size:1.6em;
+}
+th
+{
+	border:1px solid black;
+	background-color:white;
+	color:green;
+}
+td
+{
+	border:1px solid black;
+	background-color:#FFFACD;
+}
+.fld_nm
+{
+	color:blue;
+	cursor:pointer;
+}
